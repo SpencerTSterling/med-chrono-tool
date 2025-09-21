@@ -1,7 +1,7 @@
 A simple web-based tool to speed up entering **medical chronology notes** (especially chiropractic SOAP notes).
 
 ## Live Demo
-[Try it here](https:/SpencerTSterling.github.io/med-chrono-tool/) 
+[Try it here](https://spencertsterling.github.io/med-chrono-tool/) 
 
 ## Features
 - Supports **Cervical, Thoracic, and Lumbar ROM** entries  
