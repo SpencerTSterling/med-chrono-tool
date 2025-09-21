@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Medical Chrono ROM Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ROM Summary</h1>
+
+  <!-- Cervical -->
+  <form id="rom-form">
+    <h2>Cervical ROM</h2>
+
+    <div class="rom-input">
+      <label>Flexion:</label>
+      <input type="number" id="cervical-flexion" placeholder="Value"> /
+      <input type="number" id="cervical-flexion-max" placeholder="80">
+      <label><input type="checkbox" id="flexion-pain"> Pain</label>
+      <label><input type="checkbox" id="flexion-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="flexion-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Extension:</label>
+      <input type="number" id="cervical-extension" placeholder="Value"> /
+      <input type="number" id="cervical-extension-max" placeholder="50">
+      <label><input type="checkbox" id="extension-pain"> Pain</label>
+      <label><input type="checkbox" id="extension-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="extension-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Lateral Flexion Left:</label>
+      <input type="number" id="cervical-latflex-left" placeholder="Value"> /
+      <input type="number" id="cervical-latflex-left-max" placeholder="45">
+      <label><input type="checkbox" id="latflex-left-pain"> Pain</label>
+      <label><input type="checkbox" id="latflex-left-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="latflex-left-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Lateral Flexion Right:</label>
+      <input type="number" id="cervical-latflex-right" placeholder="Value"> /
+      <input type="number" id="cervical-latflex-right-max" placeholder="45">
+      <label><input type="checkbox" id="latflex-right-pain"> Pain</label>
+      <label><input type="checkbox" id="latflex-right-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="latflex-right-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Rotation Left:</label>
+      <input type="number" id="cervical-rotation-left" placeholder="Value"> /
+      <input type="number" id="cervical-rotation-left-max" placeholder="80">
+      <label><input type="checkbox" id="rotation-left-pain"> Pain</label>
+      <label><input type="checkbox" id="rotation-left-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="rotation-left-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Rotation Right:</label>
+      <input type="number" id="cervical-rotation-right" placeholder="Value"> /
+      <input type="number" id="cervical-rotation-right-max" placeholder="80">
+      <label><input type="checkbox" id="rotation-right-pain"> Pain</label>
+      <label><input type="checkbox" id="rotation-right-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="rotation-right-stiffness"> Stiffness</label>
+    </div>
+
+    <h2>Thoracic ROM</h2>
+    <div class="rom-input">
+      <label>Flexion:</label>
+      <input type="number" id="thoracic-flexion" placeholder="Value"> /
+      <input type="number" id="thoracic-flexion-max" placeholder="50">
+      <label><input type="checkbox" id="thoracic-flexion-pain"> Pain</label>
+      <label><input type="checkbox" id="thoracic-flexion-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="thoracic-flexion-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Extension:</label>
+      <input type="number" id="thoracic-extension" placeholder="Value"> /
+      <input type="number" id="thoracic-extension-max" placeholder="25">
+      <label><input type="checkbox" id="thoracic-extension-pain"> Pain</label>
+      <label><input type="checkbox" id="thoracic-extension-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="thoracic-extension-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Rotation Left:</label>
+      <input type="number" id="thoracic-rotation-left" placeholder="Value"> /
+      <input type="number" id="thoracic-rotation-left-max" placeholder="35">
+      <label><input type="checkbox" id="thoracic-rotation-left-pain"> Pain</label>
+      <label><input type="checkbox" id="thoracic-rotation-left-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="thoracic-rotation-left-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Rotation Right:</label>
+      <input type="number" id="thoracic-rotation-right" placeholder="Value"> /
+      <input type="number" id="thoracic-rotation-right-max" placeholder="35">
+      <label><input type="checkbox" id="thoracic-rotation-right-pain"> Pain</label>
+      <label><input type="checkbox" id="thoracic-rotation-right-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="thoracic-rotation-right-stiffness"> Stiffness</label>
+    </div>
+
+    <h2>Lumbar ROM</h2>
+    <div class="rom-input">
+      <label>Flexion:</label>
+      <input type="number" id="lumbar-flexion" placeholder="Value"> /
+      <input type="number" id="lumbar-flexion-max" placeholder="60">
+      <label><input type="checkbox" id="lumbar-flexion-pain"> Pain</label>
+      <label><input type="checkbox" id="lumbar-flexion-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="lumbar-flexion-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Extension:</label>
+      <input type="number" id="lumbar-extension" placeholder="Value"> /
+      <input type="number" id="lumbar-extension-max" placeholder="25">
+      <label><input type="checkbox" id="lumbar-extension-pain"> Pain</label>
+      <label><input type="checkbox" id="lumbar-extension-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="lumbar-extension-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Lateral Flexion Left:</label>
+      <input type="number" id="lumbar-latflex-left" placeholder="Value"> /
+      <input type="number" id="lumbar-latflex-left-max" placeholder="25">
+      <label><input type="checkbox" id="lumbar-latflex-left-pain"> Pain</label>
+      <label><input type="checkbox" id="lumbar-latflex-left-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="lumbar-latflex-left-stiffness"> Stiffness</label>
+    </div>
+
+    <div class="rom-input">
+      <label>Lateral Flexion Right:</label>
+      <input type="number" id="lumbar-latflex-right" placeholder="Value"> /
+      <input type="number" id="lumbar-latflex-right-max" placeholder="25">
+      <label><input type="checkbox" id="lumbar-latflex-right-pain"> Pain</label>
+      <label><input type="checkbox" id="lumbar-latflex-right-tenderness"> Tenderness</label>
+      <label><input type="checkbox" id="lumbar-latflex-right-stiffness"> Stiffness</label>
+    </div>
+  </form>
+
+  <button id="generate">Generate Summary</button>
+
+  <h2>Output</h2>
+  <textarea id="output" rows="10" cols="100" readonly></textarea>
+
+  <script src="script.js"></script>
+</body>
+</html>
